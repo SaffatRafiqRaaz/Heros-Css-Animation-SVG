@@ -1,0 +1,438 @@
+:root {
+  --color1: red;
+  --color2: orange;
+  --color3: pink;
+  --color4: green;
+  --color5: cyan;
+  --color6: coral;
+  --color7: blue;
+  --color8: magenta;
+  --color9: yellow;
+  --color10: lightgreen;
+  --color11: darkred;
+  --color12: gray;
+  --color13: purple;
+  --color14: skyblue;
+  --color15: khaki;
+}
+body {
+  background-image: url("./background.jpg");
+}
+
+h3 {
+  align-content: center;
+  color: #f1b583;
+  font-size: 20px;
+  background-color: hsl(256, 100%, 57%);
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* group1 */
+@keyframes animation1 {
+  0% {
+    fill: var(--color1);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color1);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation2 {
+  0% {
+    fill: var(--color2);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color2);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation3 {
+  0% {
+    fill: var(--color3);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color3);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation4 {
+  0% {
+    fill: var(--color4);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color4);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation9 {
+  0% {
+    fill: var(--color9);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color9);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation11 {
+  0% {
+    fill: var(--color11);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color11);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation12 {
+  0% {
+    fill: var(--color12);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color12);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+@keyframes animation13 {
+  0% {
+    fill: var(--color13);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  50% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  100% {
+    fill: var(--color13);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+}
+/* group2 */
+@keyframes animation5 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color5);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation6 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color6);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation7 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color7);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation8 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color8);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation10 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color10);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation14 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color14);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+@keyframes animation15 {
+  0% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+  50% {
+    fill: var(--color15);
+    transform: scale(1.2, 1.2) translate(-50%, -100%);
+
+    filter: drop-shadow(-50px 50px 50px rgba(0, 0, 0, 0.7));
+  }
+  100% {
+    fill: black;
+    transform: scale(1, 1) translate(1%, 1%);
+
+    filter: drop-shadow(0px 0px 80px white);
+  }
+}
+.c1 {
+  animation: animation1;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c2 {
+  animation: animation2;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c3 {
+  animation: animation3;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c4 {
+  animation: animation4;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c5 {
+  animation: animation5;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c6 {
+  animation: animation6;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c7 {
+  animation: animation7;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c8 {
+  animation: animation8;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c9 {
+  animation: animation9;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c10 {
+  animation: animation10;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c11 {
+  animation: animation11;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c12 {
+  animation: animation12;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c13 {
+  animation: animation13;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c14 {
+  animation: animation14;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.c15 {
+  animation: animation15;
+  animation-duration: 4000ms;
+  animation-delay: 0ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
